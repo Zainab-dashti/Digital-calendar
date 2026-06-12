@@ -4,7 +4,7 @@ body{
     justify-content:center;
     align-items:center;
     background:#111;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family:Arial, sans-serif;
 }
 
@@ -15,11 +15,11 @@ body{
     border:10px solid white;
 }
 .container{
-    width: 600px;
+    width: 500px;
 }
 .calendar-header{
     background:#299981;
-    height:180px;
+    height:150px;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -51,7 +51,7 @@ body{
 .today{
     background:#299981;
     color:white !important;
-    border-radius:50%;
+    border-radius:20%;
     width:40px;
     height:40px;
     display:flex;
@@ -155,4 +155,4 @@ body{
     .calendar-header button{
         font-size:28px;
     }
-}
+} 
